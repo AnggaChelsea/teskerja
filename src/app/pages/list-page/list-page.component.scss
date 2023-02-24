@@ -1,0 +1,56 @@
+.content-card{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 150px;
+  padding: 20px;
+  cursor: pointer;
+}
+img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 50px;
+}
+.name{
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+small{
+  font-weight: bold;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #96c21e;
+  border-color: #4209ff transparent #06c706 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}

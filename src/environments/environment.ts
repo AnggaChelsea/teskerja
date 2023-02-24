@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  api: 'https://63f81a995b0e4a127de036d9.mockapi.io/interview/',
+  firebase: 'https://simple-note-firebse-default-rtdb.firebaseio.com'
 };
 
 /*
